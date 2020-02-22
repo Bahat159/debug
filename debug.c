@@ -13,7 +13,7 @@ printf("I'm sorry you are at %p and you want to be at %p\n", bad, good);
 
 
 int main(int argc, char **argv, char **envp)  {
- void (*functionpointer)(void) =bad; 
+ void (*functionpointer)(void) = bad; 
  char buffer[50];
  
   if (argc != 2 || strlen(argv[1])) return 0;
