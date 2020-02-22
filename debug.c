@@ -16,7 +16,7 @@ int main(int argc, char **argv, char **envp)  {
  void (*functionpointer)(void) =bad; 
  char[50];
  
-  if (argc! = 2 || strlen(argv[1])) return 0;
+  if (argc != 2 || strlen(argv[1])) return 0;
  
 memcpy(buffer,argv[1], strlen(argv[1]);
 
